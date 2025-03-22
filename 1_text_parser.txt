@@ -1,0 +1,25 @@
+For some quick analysis, creating a corpus could be overkill.
+If all you need is a word list,
+there are simpler ways to achieve that goal.
+These methods allow you to quickly determine frequently used words in a sample. With .most_common(), you get a list of tuples containing each word and how many times it appears in your text. You can get the same information in a more readable format with .tabulate().
+
+In addition to these two methods, you can use frequency distributions to query particular words. You can also use them as iterators to perform some custom analysis on word properties.
+
+"This is a quote."
+
+For example, to discover differences in case, you can query for different variations of the same word (but here we won't bother as I'm only adding the same word to test the parser, as well as special characters - hyphen being one of them - to make it a little more challenging):
+distributions distributions distributions distributions distributions distributions distributions distributions distributions distributions
+(pseudo-code) and ((pseudo-code))
+- don't
+- Don't
+-dooont't!
+.method() and ".method()". But also (.method())
+That's the number 3, and that one is 354. And 442
+lil' and Lil'
+aren't Weren't
+weren't Aren't
+
+Your IP address is (192.168.0.1), or is it 192.168.0.2.
+Here is a number in the English way: 3,587,988.
+
+To be continued...
